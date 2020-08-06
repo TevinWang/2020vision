@@ -12,7 +12,7 @@ We used a combination of YOLO, OpenCV, and python to build our project.
 
 First, YOLO object detection is used to pinpoint locations and boundaries of various objects in the frame. This is implemented by this boxes method which returns a list of boxes with which the objects are contained.
 
-Next, we must determine the color of the traffic light. We used opencv’s HSV to create masks of different colors in the image. For example, in this image, we can turn this into this. Since traffic lights usually come in the form of a circle, we will search for mask areas inside the traffic lights that contain radial outlines.
+Next, we must determine the color of the traffic light. We used opencv’s HSV to create masks of different colors in the image. Since traffic lights usually come in the form of a circle, we will search for mask areas inside the traffic lights that contain radial outlines.
 
 Finally we need to find the traffic light relevant to the driver, which is usually closest to the center of view. Once it is identified, the program plays a sound saying the color of the traffic light. The sound will only play +every few seconds when the traffic light is detected.
 
