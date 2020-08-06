@@ -19,3 +19,5 @@ Finally we need to find the traffic light relevant to the driver, which is usual
 In the future, some other features that we plan to implement are detection for dysfunctional traffic lights, distance detection, being able to measure distance from the traffic light and alert accordingly, and optimization of color and object detection. 
 
 With 2020vision, we can extend the use of AI to help the colorblind gain a better sense of the road. Let’s build a safer society together.
+
+(https://github.com/TevinWang/2020vision/blob/master/thumbnail.png)
